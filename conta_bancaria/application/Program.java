@@ -20,7 +20,7 @@ public class Program {
 		System.out.print("Is there na initial deposit? (y/n) ");
 		char yOurN = teclado.next().charAt(0);  //variavel temporária para entrada de dados
 		if (yOurN == 'y') { //condição para determinar qual construtor rodar
-			System.out.println("Enter initialdeposit value: ");
+			System.out.print("Enter initial deposit value: ");
 			double initialDeposit = teclado.nextDouble(); //variavel temporária para entrada de dados
 			
 			account = new Account(number, name, initialDeposit); //instanciamento da classe Account que a variavel foi declara logo acima, acessando um construtor
